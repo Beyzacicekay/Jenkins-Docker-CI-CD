@@ -6,5 +6,5 @@ PORT = 80
 handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("", PORT), handler) as httpd:
-    print("Sunucu port başlatıldıııııııııı: http://localhost:80")
+    print("Sunucu port başlatıldı: http://localhost:80")
     httpd.serve_forever()
